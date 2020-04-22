@@ -27,7 +27,7 @@ font-weight:400 ;
     align-items: center;
     display:flex;
     flex-direction: row;
-    margin:50px 200px;
+    margin:50px 130px;/* top right bottom left */
 
 }
 
@@ -38,7 +38,7 @@ font-weight:400 ;
     box-shadow: 5px 10px 18px #888888;
     border-radius: 10px;/*efines the radius of the element's corners.*/
     border-top-style: solid;
-    text-align: justify;/*to get text to be from first line inside each box not to the center*/
+    text-align: left;/*to get text to be from first line inside each box not to the center*/
     
     
 }  
@@ -49,7 +49,7 @@ font-weight:400 ;
   flex-shrink:1;*/
   /*flex-wrap: nowrap;*/
    flex-basis: 33%;
-   text-align: left;
+   
 }
 .sub3{
     border-top-color:hsl(212, 86%, 64%);
@@ -57,7 +57,7 @@ font-weight:400 ;
     /*flex-grow:0.1;
     flex-shrink:1;*/
     flex-basis: 33%; 
-    text-align: left;
+   
 
 }
 img{
@@ -77,13 +77,13 @@ img{
 {
     border-top-color:hsl(0, 78%, 62%);
     flex-basis: 50%;
-    text-align: left;
+    
     
 }
 .subb2{
     border-top-color: hsl(34, 97%, 64%);
     flex-basis: 50%;
-    text-align: left;
+  
     
 }
 @media (max-width:1000px) {
