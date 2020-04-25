@@ -33,7 +33,7 @@ font-weight:400 ;
 
 .sub1,.sub3,.subb1,.subb2
 {
-    margin-top: 10%;
+    /*margin-top: 10%;*/
     padding:20px; /* top right bottom left */
     box-shadow: 5px 10px 18px #888888;
     border-radius: 10px;/*efines the radius of the element's corners.*/
@@ -62,7 +62,7 @@ font-weight:400 ;
 }
 img{
     float:right;
-    margin: 30px 10px 10px 220px;/* top right bottom left */
+    /*margin: 30px 10px 10px 220px;/* top right bottom left */
 }
 
 .sub2
@@ -76,13 +76,14 @@ img{
 .subb1
 {
     border-top-color:hsl(0, 78%, 62%);
-    flex-basis: 50%;
+    flex-basis: 33%;
+    margin-bottom: 20px;
     
     
 }
 .subb2{
     border-top-color: hsl(34, 97%, 64%);
-    flex-basis: 50%;
+    flex-basis: 33%;
   
     
 }
@@ -94,16 +95,17 @@ img{
         flex-direction: column;
         margin: 0px;
     }
-    /*.sub1
+ 
+    .sub1,.sub3,.subb2
     {
-        flex-shrink:0.1;
-        flex-grow:0.1;
-        margin-right: 0px;       
+        margin-bottom:20px ;
+    }
+    .sub1{
+        margin-right: 0px;
     }
     .sub3{
         margin-left: 0px;
-    }*/
- 
+    }
     .header .p1{
         line-height: normal;
     }
